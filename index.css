@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Dancing Script", cursive;
+  font-weight: 80px;
+  font-style: normal;
+  font-size: xx-large;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 244, 250);
+}
