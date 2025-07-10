@@ -11,7 +11,8 @@ const App = () => {
     setTitle("");
     setDescription("");
   }
-  
+
+  let renderNoTask = <h1>No Tasks assigned!</h1>
   return (
     <div>
       <h1 className='text-5xl text-center font-bold bg-blue-400 text-white p-10'>To-Do-List App</h1>
@@ -26,6 +27,9 @@ const App = () => {
 
         <button className='bg-black text-white px-4 py-2 m-5 font-bold border-2 rounded'>Add Task</button>
       </form>
+      <div className='p-8 bg-blue-200 text-center'>
+        <ul>{renderNoTask}</ul>
+      </div>
     </div>
   )
 }
